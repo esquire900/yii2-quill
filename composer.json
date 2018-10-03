@@ -1,5 +1,5 @@
 {
-    "name": "bizley/quill",
+    "name": "esquire900/quill",
     "description": "Quill editor implementation for Yii 2.",
     "type": "yii2-extension",
     "keywords": [
@@ -17,7 +17,7 @@
         }
     ],
     "support": {
-        "source": "https://github.com/bizley/yii2-quill"
+        "source": "https://github.com/esquire900/yii2-quill"
     },
     "require": {
         "yiisoft/yii2": "^2.0.0"
