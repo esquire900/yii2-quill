@@ -1,10 +1,10 @@
 # yii2-quill
 
-![Latest Stable Version](https://img.shields.io/packagist/v/bizley/quill.svg)
-![Total Downloads](https://img.shields.io/packagist/dt/bizley/quill.svg)
-![License](https://img.shields.io/packagist/l/bizley/quill.svg)
+![Latest Stable Version](https://img.shields.io/packagist/v/esquire900/quill.svg)
+![Total Downloads](https://img.shields.io/packagist/dt/esquire900/quill.svg)
+![License](https://img.shields.io/packagist/l/esquire900/quill.svg)
 
-*Yii 2 implementation of Quill, modern WYSIWYG editor.*
+*Yii 2 implementation of Quill, modern WYSIWYG editor.* Cloned and improved from [https://github.com/bizley/yii2-quill](https://github.com/bizley/yii2-quill)
 
 ## Quill
 
@@ -20,20 +20,20 @@ You can find Quill at https://quilljs.com/
 
 Easiest way to install this extension is through the [Composer](https://getcomposer.org).  
 Add in your `composer.json`:  
-`"bizley/quill": "^2.0"`  
+`"esquire900/quill": "^2.0"`  
 or run console command:  
-`php composer.phar require "bizley/quill ^2.0"`
+`php composer.phar require "esquire900/quill ^2.0"`
 
 If you want to install Quill beta version add:  
-`"bizley/quill": "^1.0"`
+`"esquire900/quill": "^1.0"`
 
 ### Usage
 
 Use it as an active field extension  
-`<?= $form->field($model, $attribute)->widget(\bizley\quill\Quill::className(), []) ?>`
+`<?= $form->field($model, $attribute)->widget(\esquire900\quill\Quill::className(), []) ?>`
 
 or as a standalone widget  
-`<?= \bizley\quill\Quill::widget(['name' => 'editor', 'value' => '']) ?>`
+`<?= \esquire900\quill\Quill::widget(['name' => 'editor', 'value' => '']) ?>`
 
 ### Basic parameters
 

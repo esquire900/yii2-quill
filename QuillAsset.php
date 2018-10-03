@@ -1,6 +1,6 @@
 <?php
 
-namespace bizley\quill;
+namespace esquire900\quill;
 
 use yii\web\AssetBundle;
 
@@ -10,7 +10,7 @@ use yii\web\AssetBundle;
  * @author Paweł Bizley Brzozowski
  * @version 2.0
  * @license Apache 2.0
- * https://github.com/bizley/yii2-quill
+ * https://github.com/esquire900/yii2-quill
  * 
  * Quill can be found at
  * https://quilljs.com/

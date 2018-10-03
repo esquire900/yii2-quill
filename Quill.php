@@ -1,6 +1,6 @@
 <?php
 
-namespace bizley\quill;
+namespace esquire900\quill;
 
 use yii\base\InvalidConfigException;
 use yii\helpers\Html;
@@ -13,22 +13,21 @@ use yii\widgets\InputWidget;
  * Quill 1.2 editor implementation for Yii 2.
  * 
  * Use it as an active field:
- * <?= $form->field($model, $attribute)->widget(\bizley\quill\Quill::className(), []) ?>
+ * <?= $form->field($model, $attribute)->widget(\esquire900\quill\Quill::className(), []) ?>
  * or as a standalone widget:
- * <?= \bizley\quill\Quill::widget(['name' => 'editor']) ?>
+ * <?= \esquire900\quill\Quill::widget(['name' => 'editor']) ?>
  * 
  * See the documentation for more details.
  * 
- * @author Paweł Bizley Brzozowski
  * @version 2.2
  * @license Apache 2.0
- * https://github.com/bizley/yii2-quill
+ * https://github.com/esquire900/yii2-quill
  * 
  * Quill can be found at
  * https://quilljs.com/
  * https://github.com/quilljs/quill/
  * 
- * For previous Quill beta version install bizley/quill ^1.0.
+ * For previous Quill beta version install esquire900/quill ^1.0.
  */
 class Quill extends InputWidget
 {
@@ -118,7 +117,7 @@ class Quill extends InputWidget
      * Version different from default for this release might not work correctly.
      * @since 2.0
      */
-    public $quillVersion = '1.2.0';
+    public $quillVersion = '1.3.6';
     
     /**
      * @var array Quill options.
